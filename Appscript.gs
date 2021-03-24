@@ -32,4 +32,4 @@ function onEdit(e) {
   var lastrow=ss.getLastRow();
   var fillColumnD=ss.getRange(2,2,lastrow-1);
   ss.getRange("B2").copyTo(fillColumnD);
-}
+} 
